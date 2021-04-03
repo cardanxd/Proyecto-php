@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Blog de Videojuegos</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 </head>
 
 <body>
@@ -43,6 +44,7 @@
                 </li>
             </ul>
         </nav>
+        <div class="clearfix"></div>
     </header>
     <div id="contenedor">
         <!--BARRA LATERAL-->
@@ -57,7 +59,6 @@
                     <input type="submit" value="Entrar">
                 </form>
             </div>
-
             <div id="register" class="bloque">
                 <h3>Registrate</h3>
                 <form action="registro.php" method="POST">
@@ -76,35 +77,42 @@
         <!--CAJA PRINCIPAL-->
         <div id="principal">
             <h1>Ultimas entradas</h1>
-            <article class="entrada">
-                <h2>Titulo de mi entrada</h2>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid reiciendis perferendis unde earum eum. Doloribus laudantium delectus laborum voluptatibus consequuntur sed sunt, tenetur error aliquid aut dolores iusto ullam inventore.
-                </p>
-            </article>
-            <h1>Ultimas entradas</h1>
-            <article class="entrada">
-                <h2>Titulo de mi entrada</h2>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid reiciendis perferendis unde earum eum. Doloribus laudantium delectus laborum voluptatibus consequuntur sed sunt, tenetur error aliquid aut dolores iusto ullam inventore.
-                </p>
-            </article>
-            <h1>Ultimas entradas</h1>
-            <article class="entrada">
-                <h2>Titulo de mi entrada</h2>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid reiciendis perferendis unde earum eum. Doloribus laudantium delectus laborum voluptatibus consequuntur sed sunt, tenetur error aliquid aut dolores iusto ullam inventore.
-                </p>
-            </article>
-            <h1>Ultimas entradas</h1>
-            <article class="entrada">
-                <h2>Titulo de mi entrada</h2>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid reiciendis perferendis unde earum eum. Doloribus laudantium delectus laborum voluptatibus consequuntur sed sunt, tenetur error aliquid aut dolores iusto ullam inventore.
-                </p>
-            </article>
-        </div>
 
+            <article class="entrada">
+                <a href="">
+                    <h2>Titulo de mi entrada</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid reiciendis perferendis unde earum eum. Doloribus laudantium delectus laborum voluptatibus consequuntur sed sunt, tenetur error aliquid aut dolores iusto ullam inventore.
+                    </p>
+                </a>
+            </article>
+            <article class="entrada">
+                <a href="">
+                    <h2>Titulo de mi entrada</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid reiciendis perferendis unde earum eum. Doloribus laudantium delectus laborum voluptatibus consequuntur sed sunt, tenetur error aliquid aut dolores iusto ullam inventore.
+                    </p>
+                </a>
+            </article>
+            <article class="entrada">
+                <a href="">
+                    <h2>Titulo de mi entrada</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid reiciendis perferendis unde earum eum. Doloribus laudantium delectus laborum voluptatibus consequuntur sed sunt, tenetur error aliquid aut dolores iusto ullam inventore.
+                    </p>
+                </a>
+            </article>
+            <article class="entrada">
+                <a href="">
+                    <h2>Titulo de mi entrada</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid reiciendis perferendis unde earum eum. Doloribus laudantium delectus laborum voluptatibus consequuntur sed sunt, tenetur error aliquid aut dolores iusto ullam inventore.
+                    </p>
+                </a>
+            </article>
+            <div id="ver-todas"><a href="">Ver todas las entradas</a></div>
+        </div>
+        <div class="clearfix"></div>
     </div>
     <!--PIE DE PAGINA-->
     <footer id="pie">
