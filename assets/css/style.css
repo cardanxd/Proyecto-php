@@ -19,6 +19,19 @@
     float: none;
 }
 
+.alerta{
+    padding: 5px;
+    font-size: 14px;
+    color: white;
+    background: green;
+    box-shadow: 0px 1px 3px #ccc;
+    border-radius: 2px;
+}
+
+.alerta-error{
+    background: red;
+}
+
 body{
     background: url("../img/cubes.png") #F4F4F4;
 }
@@ -122,7 +135,7 @@ body{
 }
 
 label,
-input[type="texto"],
+input[type="text"],
 input[type="email"],
 input[type="password"]{
     display: block;
@@ -131,7 +144,7 @@ input[type="password"]{
     margin-bottom: 2px;
 }
 
-input[type="texto"],
+input[type="text"],
 input[type="email"],
 input[type="password"]{
     padding: 5px;
